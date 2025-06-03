@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+#logo {
+  height: 40px; /* Adjust this value as needed for your PNG */
+  width: auto; /* This maintains the aspect ratio of your image */
+  margin-right: 15px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+main p {
+  font-size: 1.5em;
+  color: #555;
+}
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pluvcat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="./img/pluvcat.png" alt="pluvcat">
+        <h1>pluvcat</h1>
+    </header>
+    <main>
+        <p>nothing is here</p>
+    </main>
+</body>
+</html>
